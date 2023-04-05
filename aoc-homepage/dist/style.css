@@ -56,27 +56,35 @@ a:hover {
   color: var(--secondary-color);
 } 
 nav {
-  background: #fff;
+  background: rgb(26, 25, 25);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
   box-shadow: 2px 3px 2px #f1f1f1;
    position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1;
 }
-
-.nav.ageof {
-  color: black
+#navbar { 
+  position: sticky;
 }
-.nav.civilization {
-  color: blue;
+.navageof {
+  color: #b8b8b8;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+}
+.navcivilization {
+  color: #b92d2d;
+  display: inline-block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 .logo {
-  font-size: 2rem;
-  font-weight: 500;
+  background-image: url("https://www.civilhosting.net/blesta/app/views/client/lowendhost-blue/images/favicon.ico");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 ul {
@@ -128,7 +136,6 @@ ul {
 
 .phrase {
   display: block;
-  font-family: Lobster;
   text-align: right;
   color: rgb(55, 0, 253);
   font-size: xx-large;
@@ -158,5 +165,21 @@ ul {
 #discordtext { 
 
   font-weight: bold;
+
+}
+
+
+#centerme {
+
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.getstartednow {
+
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 
 }
