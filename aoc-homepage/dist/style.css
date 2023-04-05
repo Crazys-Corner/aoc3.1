@@ -144,3 +144,19 @@ ul {
   float: left;
   
 }
+#staff { 
+  margin-top: 10vh;
+  text-align: center;
+}
+
+#discord { 
+
+  margin-top: 10vh;
+
+}
+
+#discordtext { 
+
+  font-weight: bold;
+
+}

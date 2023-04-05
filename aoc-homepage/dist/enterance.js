@@ -61,7 +61,7 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-"Click to Enter", "Age of Civilization"];
+"Click to Enter", "Civil Hosting"];
 
 
 const el = document.querySelector('.text');
